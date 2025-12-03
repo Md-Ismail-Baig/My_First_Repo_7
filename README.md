@@ -1,40 +1,39 @@
 # My_First_Repo_7 --> My first project.
-## Dynamic Student Performance Analyzer
+# Dynamic Student Performance Analyzer
 <hr>
-A C program designed to manage and evaluate the academic performance of multiple students. The program dynamically allocates memory based on the number of students and subjects, validates input, calculates averages, and identifies the class topper.
+A C program designed to manage and evaluate the academic performance of multiple students. <br> The program dynamically allocates memory based on the number of students and subjects, validates input, calculates averages, and identifies the class topper.
 <hr>
-## Objective
+<h2> Objective </h2>
 <br>
-Develop a C program that:
+<h4> Develop a C program that: </h4>
 <br>
-Accepts the number of students and number of subjects at runtime
+--> Accepts the number of students and number of subjects at runtime
 <br>
-Uses dynamic memory allocation to store student records and marks
+--> Uses dynamic memory allocation to store student records and marks
 <br>
-Validates marks to ensure they are within the 0–100 range
+--> Validates marks to ensure they are within the 0–100 range
 <br>
-Calculates the average marks for each student
+--> Calculates the average marks for each student
 <br>
-Identifies and displays the student with the highest average
+--> Identifies and displays the student with the highest average
 <br>
-Frees all dynamically allocated memory before program termination
+--> Frees all dynamically allocated memory before program termination
 <br>
-Features
+<h2> Features </h2>
 <br>
-Struct-based organization for student data
+--> Struct-based organization for student data
 <br>
-Dynamic allocation of memory for flexible subject count
+-> Dynamic allocation of memory for flexible subject count
 <br>
-Input validation for students, subjects, and marks
+--> Input validation for students, subjects, and marks
 <br>
-Automatic calculation of average marks
+--> Automatic calculation of average marks
 <br>
-Identification of the topper based on highest average
+--> Identification of the topper based on highest average
 <br>
-Safe memory deallocation (prevents memory leaks)
-<br>
+--> Safe memory deallocation (prevents memory leaks)
 <hr>
-## Data Structure<br>
+<h4> Data Structure </h4><br>
 typedef struct {<br>
     int Rollno;<br>
     int *Marks;<br>
@@ -42,9 +41,8 @@ typedef struct {<br>
     float Average;<br>
 } Details;<br>
 <hr>
-<br>
 This structure efficiently stores all required information for each student.
-<br><hr>
+<hr>
 ## Compilation and Execution 
 <br>
 ### Compile
@@ -52,14 +50,13 @@ This structure efficiently stores all required information for each student.
 gcc student_performance_analyzer.c -o analyzer
 <br>
 
-### Run
-<br>
+#### Run
 ./analyzer
 <br><hr>
 
 Follow the prompts to enter the number of students, subjects, and each student’s details.
 <br>
-### Sample Output<br><hr>
+<h2> Sample Output</h2><hr>
 Enter no of Students: 2<br>
 Enter number of subjects: 3<br><br>
 
@@ -84,22 +81,22 @@ Name    : John<br>
 Roll no : 102<br>
 Average : 93.67<br><br>
 <hr>
-### Recommended File Name<br>
+<h2> Recommended File Name </h2> <br>
 student_performance_analyzer.c<br><br>
 
-# Future Improvements<br><br>
+### Future Improvements<hr>
 
-Support for full names (with spaces)<br><br>
+Support for full names (with spaces)<br>
 
-Save results to file (CSV or TXT)<br><br>
+Save results to file (CSV or TXT)<br>
 
-Sort students by average marks<br><br>
+Sort students by average marks<br>
 
-Add grade classification or ranking<br><br>
+Add grade classification or ranking<br>
 
-Menu-driven system for better usability<br><br>
+Menu-driven system for better usability<br>
 
-## Author<br><br>
+### Author<br><br>
 <hr>
 Ismail<br>
 Computer Science and Engineering Student.<br>
