@@ -3,4 +3,4 @@ This my first repository.
 <br>
 I am cs student.
 <br>
-Author - Ismail 
+Author - Md Ismail baig
