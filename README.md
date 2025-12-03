@@ -33,28 +33,24 @@ A C program designed to manage and evaluate the academic performance of multiple
 <hr>
 <h3> Data Structure </h3><br>
 typedef struct {<br>
-&nbsp;&nbsp;&nbsp;int Rollno;<br>
-&nbsp;&nbsp;&nbsp;int *Marks;<br>
-&nbsp;&nbsp;&nbsp;char Name[50];<br>
-&nbsp;&nbsp;&nbsp;float Average;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int Rollno;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int *Marks;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char Name[50];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float Average;<br>
 } Details;<br>
 <hr>
 This structure efficiently stores all required information for each student.
 <hr>
-## Compilation and Execution 
-<br>
-### Compile
-<br>
-gcc student_performance_analyzer.c -o analyzer
-<br>
+<h1>Compilation and Execution</h1> 
+<h2> Compile</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;gcc student_performance_analyzer.c -o analyzer
 
 ### Run
 ./analyzer
 <br><hr>
 
 <h3>Follow the prompts to enter the number of students, subjects, and each student’s details.</h3>
-<br>
-<h2> Sample Output</h2><hr>
+<h4> Sample Output</h4>
 Enter no of Students: 2<br>
 Enter number of subjects: 3<br>
 
@@ -82,20 +78,21 @@ Average : 93.67
 <h2> Recommended File Name </h2>
 student_performance_analyzer.c<hr>
 
-### Future Improvements<hr>
+### Future Improvements
 
-Support for full names (with spaces)<br>
+--> Support for full names (with spaces)<br>
 
-Save results to file (CSV or TXT)<br>
+--> Save results to file (CSV or TXT)<br>
 
-Sort students by average marks<br>
+--> Sort students by average marks<br>
 
-Add grade classification or ranking<br>
+--> Add grade classification or ranking<br>
 
-Menu-driven system for better usability<hr>
+--> Menu-driven system for better usability<hr>
 
 ### Author
 <hr>
-Ismail<br>
-Computer Science and Engineering Student.<br>
+<h4>Ismail<br>
+Computer Science and Engineering Student.
+</h4>
 <hr>
