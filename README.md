@@ -1,12 +1,10 @@
 # My_First_Repo_7 --> My first project.
-# Dynamic Student Performance Analyzer
+### Dynamic Student Performance Analyzer
 <hr>
-A C program designed to manage and evaluate the academic performance of multiple students. <br> The program dynamically allocates memory based on the number of students and subjects, validates input, calculates averages, and identifies the class topper.
+A C program designed to manage and evaluate the academic performance of multiple students.The program dynamically <br>allocates memory based on the number of students and subjects, validates input, calculates<br>averages, and identifies the class topper.
 <hr>
 <h2> Objective </h2>
-<br>
 <h4> Develop a C program that: </h4>
-<br>
 --> Accepts the number of students and number of subjects at runtime
 <br>
 --> Uses dynamic memory allocation to store student records and marks
@@ -18,12 +16,12 @@ A C program designed to manage and evaluate the academic performance of multiple
 --> Identifies and displays the student with the highest average
 <br>
 --> Frees all dynamically allocated memory before program termination
-<br>
+<hr>
 <h2> Features </h2>
 <br>
 --> Struct-based organization for student data
 <br>
--> Dynamic allocation of memory for flexible subject count
+--> Dynamic allocation of memory for flexible subject count
 <br>
 --> Input validation for students, subjects, and marks
 <br>
@@ -33,12 +31,12 @@ A C program designed to manage and evaluate the academic performance of multiple
 <br>
 --> Safe memory deallocation (prevents memory leaks)
 <hr>
-<h4> Data Structure </h4><br>
+<h3> Data Structure </h3><br>
 typedef struct {<br>
-    int Rollno;<br>
-    int *Marks;<br>
-    char Name[50];<br>
-    float Average;<br>
+&nbsp;&nbsp;&nbsp;int Rollno;<br>
+&nbsp;&nbsp;&nbsp;int *Marks;<br>
+&nbsp;&nbsp;&nbsp;char Name[50];<br>
+&nbsp;&nbsp;&nbsp;float Average;<br>
 } Details;<br>
 <hr>
 This structure efficiently stores all required information for each student.
@@ -50,15 +48,15 @@ This structure efficiently stores all required information for each student.
 gcc student_performance_analyzer.c -o analyzer
 <br>
 
-#### Run
+### Run
 ./analyzer
 <br><hr>
 
-Follow the prompts to enter the number of students, subjects, and each student’s details.
+<h3>Follow the prompts to enter the number of students, subjects, and each student’s details.</h3>
 <br>
 <h2> Sample Output</h2><hr>
 Enter no of Students: 2<br>
-Enter number of subjects: 3<br><br>
+Enter number of subjects: 3<br>
 
 Enter Student no: 1<br>
 Name: Alex<br>
@@ -66,7 +64,7 @@ Roll no: 101<br>
 Marks of 3 subjects (0-100):<br>
 Enter subject no:1 Marks: 85<br>
 Enter subject no:2 Marks: 90<br>
-Enter subject no:3 Marks: 88<br><br>
+Enter subject no:3 Marks: 88<br>
 
 Enter Student no: 2<br>
 Name: John<br>
@@ -74,15 +72,15 @@ Roll no: 102<br>
 Marks of 3 subjects (0-100):<br>
 Enter subject no:1 Marks: 95<br>
 Enter subject no:2 Marks: 92<br>
-Enter subject no:3 Marks: 94<br><br>
+Enter subject no:3 Marks: 94<br>
 
 --- Topper Details ---<br>
 Name    : John<br>
 Roll no : 102<br>
-Average : 93.67<br><br>
+Average : 93.67
 <hr>
-<h2> Recommended File Name </h2> <br>
-student_performance_analyzer.c<br><br>
+<h2> Recommended File Name </h2>
+student_performance_analyzer.c<hr>
 
 ### Future Improvements<hr>
 
@@ -94,9 +92,9 @@ Sort students by average marks<br>
 
 Add grade classification or ranking<br>
 
-Menu-driven system for better usability<br>
+Menu-driven system for better usability<hr>
 
-### Author<br><br>
+### Author
 <hr>
 Ismail<br>
 Computer Science and Engineering Student.<br>
